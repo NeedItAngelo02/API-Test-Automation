@@ -1,0 +1,15 @@
+Feature: Create a Karate test scenario for above end point and verify the response.
+
+Scenario: Response will be recieved on the given End Point
+
+GIVEN url 'https;//react-shopping-cart-67954.firebaseapp.com/'
+
+WHEN method get
+
+THEN status 200
+
+AND
+
+GIVEN
+WHEN
+THEN

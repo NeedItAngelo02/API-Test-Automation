@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="APIExcerciseTest (1)" project="APITestAutomation-Karate" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="apiexcercise.APIExcerciseTest" time="0.847">
+    <testsuite name="[APIExcercise]" time="0.847">
+      <testcase name="[1:3] Response will be recieved on the given End Point" classname="[APIExcercise]" time="0.847"/>
+    </testsuite>
+  </testsuite>
+</testrun>

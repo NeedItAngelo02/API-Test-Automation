@@ -1,0 +1,145 @@
+11:59:49.823 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:59:50.193 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/todos/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: jsonplaceholder.typicode.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/13-ea)
+
+11:59:50.837 [main] DEBUG com.intuit.karate - response time in milliseconds: 640.06
+1 < 200
+1 < Access-Control-Allow-Credentials: true
+1 < Age: 5907
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5188a63668b294d3-NRT
+1 < Cache-Control: public, max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 19 Sep 2019 03:59:50 GMT
+1 < Etag: W/"63-+s0zIP5ZEQN9hypVJUneLybJ+L0"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Expires: Thu, 19 Sep 2019 07:59:50 GMT
+1 < Pragma: no-cache
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=de1f4542e0fd384484ef7444e7404d76a1568865590; expires=Fri, 18-Sep-20 03:59:50 GMT; path=/; domain=.typicode.com; HttpOnly
+1 < Transfer-Encoding: chunked
+1 < Vary: Origin, Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Content-Type-Options: nosniff
+1 < X-Powered-By: Express
+{
+  "userId": 1,
+  "id": 2,
+  "title": "quis ut nam facilis et officia qui",
+  "completed": false
+}
+
+12:00:14.191 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:00:14.583 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/todos/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: jsonplaceholder.typicode.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/13-ea)
+
+12:00:14.990 [main] DEBUG com.intuit.karate - response time in milliseconds: 403.73
+1 < 200
+1 < Access-Control-Allow-Credentials: true
+1 < Age: 5931
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5188a6cd4dcfd62d-NRT
+1 < Cache-Control: public, max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 19 Sep 2019 04:00:14 GMT
+1 < Etag: W/"63-+s0zIP5ZEQN9hypVJUneLybJ+L0"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Expires: Thu, 19 Sep 2019 08:00:14 GMT
+1 < Pragma: no-cache
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d921b3e829d8d2beaa1a508d68e3cd38b1568865614; expires=Fri, 18-Sep-20 04:00:14 GMT; path=/; domain=.typicode.com; HttpOnly
+1 < Transfer-Encoding: chunked
+1 < Vary: Origin, Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Content-Type-Options: nosniff
+1 < X-Powered-By: Express
+{
+  "userId": 1,
+  "id": 2,
+  "title": "quis ut nam facilis et officia qui",
+  "completed": false
+}
+
+12:00:14.992 [main] ERROR com.intuit.karate - assertion failed: path: $.completed, actual: false, expected: true, reason: not equal (Boolean)
+12:00:29.501 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:00:29.856 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/todos/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: jsonplaceholder.typicode.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/13-ea)
+
+12:00:30.300 [main] DEBUG com.intuit.karate - response time in milliseconds: 441.43
+1 < 200
+1 < Access-Control-Allow-Credentials: true
+1 < Age: 5947
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5188a72cfa52d639-NRT
+1 < Cache-Control: public, max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 19 Sep 2019 04:00:30 GMT
+1 < Etag: W/"63-+s0zIP5ZEQN9hypVJUneLybJ+L0"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Expires: Thu, 19 Sep 2019 08:00:30 GMT
+1 < Pragma: no-cache
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d8437350815bdcd6da6c6df84693cf3871568865630; expires=Fri, 18-Sep-20 04:00:30 GMT; path=/; domain=.typicode.com; HttpOnly
+1 < Transfer-Encoding: chunked
+1 < Vary: Origin, Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Content-Type-Options: nosniff
+1 < X-Powered-By: Express
+{
+  "userId": 1,
+  "id": 2,
+  "title": "quis ut nam facilis et officia qui",
+  "completed": false
+}
+
+12:03:28.949 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:03:29.336 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/todos/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: jsonplaceholder.typicode.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/13-ea)
+
+12:03:29.741 [main] DEBUG com.intuit.karate - response time in milliseconds: 400.95
+1 < 200
+1 < Access-Control-Allow-Credentials: true
+1 < Age: 6126
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5188ab8e8d11955d-NRT
+1 < Cache-Control: public, max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 19 Sep 2019 04:03:29 GMT
+1 < Etag: W/"63-+s0zIP5ZEQN9hypVJUneLybJ+L0"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Expires: Thu, 19 Sep 2019 08:03:29 GMT
+1 < Pragma: no-cache
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d975bf3385893b1ba0ef63659d9f9cce41568865809; expires=Fri, 18-Sep-20 04:03:29 GMT; path=/; domain=.typicode.com; HttpOnly
+1 < Transfer-Encoding: chunked
+1 < Vary: Origin, Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Content-Type-Options: nosniff
+1 < X-Powered-By: Express
+{
+  "userId": 1,
+  "id": 2,
+  "title": "quis ut nam facilis et officia qui",
+  "completed": false
+}
+
